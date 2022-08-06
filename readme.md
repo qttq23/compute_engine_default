@@ -18,7 +18,10 @@ https://cloud.google.com/compute/docs/instances
 
 # 2. create 
 - go to 'console/Compute Engine/VM instances' and click 'Create instance'
-- select region. eg: asia-southeast1 (singapore)
+- select region. eg: us-central1 (lowa)
+note: the `asia-southeast1 (singapore)` is not supported region to gain the benefits of Free Tier. Use it will cost you more.
+(https://cloud.google.com/free/docs/free-cloud-features#free-tier-usage-limits)
+
 - select machine: E2, e2-medium
 - select Boot Disk: Ubuntu, Ubuntu 20.04 LTS
 - select Firewall: allow http and allow https
